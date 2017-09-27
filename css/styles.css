@@ -210,7 +210,11 @@ body {
 
 @media screen and (min-width: 600px) {
   .content {
-    width: 100%; } }
+    width: 100%; }
+    .content .header {
+      flex-direction: row; }
+      .content .header img {
+        margin: 0; } }
 @media screen and (min-width: 900px) {
   .content {
     width: 1024px; }
